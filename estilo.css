@@ -1,0 +1,135 @@
+
+#menu{
+    height: 280px;
+    width: auto;
+    border: solid;
+    border-color: black;
+    padding: 10;
+    margin: 0 auto;
+    
+}
+
+#menu ul {
+    display: flexbox;
+    background-position: right;
+    background-color: transparent;
+    text-align: right;
+    
+   
+}
+
+#menu ul li {
+    display: inline;
+   
+   
+}    
+
+#menu ul li a {
+    color: #8b8b83;
+    margin-left: 25px;
+    padding: 10px;
+    font-family: Calibri;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+    
+    
+}
+
+#menu ul li a:hover{
+    background-color: aqua;
+}
+
+.button{
+    border: solid 1px black;
+    background-color: transparent;
+    padding-top: 3px;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;   
+}
+
+#menu ul li button:hover{
+    background-color: grey;
+}
+.imagem{
+    border-radius: 20px;
+    padding: 5px;  
+}
+
+.linha1{
+    background-color: green;
+    height: 2px;
+    width: 50px;
+    align-items: center;
+}
+
+.linha2{
+    background-color: red;
+    height: 2px;
+    width: 75px;
+    align-items: center;
+    
+}
+
+.titulo{
+    text-align: center;
+    font-family: georgia;  
+}
+
+.texto{
+    color:#8b8b83;
+    font-family: arial;
+    text-align: center;
+    max-width: 450px;
+    margin-left: 33%;
+    margin-top: 3%;
+}
+
+.lista{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+/*.formulario{
+    height: 50%;
+    width: 30%; 
+   
+   
+}
+
+.formulario > p{
+    font-size: 10px;
+    font-family: arial;
+}
+*/
+.caixa1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+    background-color: green;
+    padding: 0;
+    
+}
+.caixa2{
+    display: inline-block;
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    margin-left: 2%;
+    margin-top: 5%;
+    
+}
+.NYmap{
+    align-items:center; 
+    width: 1100px; 
+    height: 400px; 
+    margin-left: 8%;
+}
