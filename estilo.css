@@ -1,9 +1,14 @@
+.cab{
+    background-image: url('imagens/foody-top.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 #menu{
     height: 280px;
     width: auto;
-    border: solid;
-    border-color: black;
+    /*border-color: black;*/
     padding: 10;
     margin: 0 auto;
     
@@ -14,14 +19,10 @@
     background-position: right;
     background-color: transparent;
     text-align: right;
-    
-   
 }
 
 #menu ul li {
-    display: inline;
-   
-   
+    display: inline; 
 }    
 
 #menu ul li a {
@@ -31,17 +32,15 @@
     font-family: Calibri;
     text-decoration: none;
     font-size: 18px;
-    display: inline-block;
-    
-    
+    display: inline-block; 
 }
 
 #menu ul li a:hover{
-    background-color: aqua;
+    background-color: grey;
 }
 
 .button{
-    border: solid 1px black;
+    border: none;
     background-color: transparent;
     padding-top: 3px;
     border-radius: 25px;
@@ -52,29 +51,44 @@
 #menu ul li button:hover{
     background-color: grey;
 }
+
+.logo{
+    padding: 10px;
+    margin: 0 auto;
+    
+}
+
 .imagem{
     border-radius: 20px;
     padding: 5px;  
 }
 
+.imagemf{
+    color: white;
+    height: 15px;
+    width: 15px;
+}
+
 .linha1{
-    background-color: green;
+    background-color: #3eba15;
     height: 2px;
     width: 50px;
     align-items: center;
+    margin-top: 50px;
 }
 
 .linha2{
-    background-color: red;
+    background-color: #ed5004;
     height: 2px;
     width: 75px;
-    align-items: center;
-    
+    align-items: center; 
+    margin-top: 5px;
 }
 
 .titulo{
     text-align: center;
-    font-family: georgia;  
+    font-family: georgia; 
+    margin-top: 10px; 
 }
 
 .texto{
@@ -83,53 +97,91 @@
     text-align: center;
     max-width: 450px;
     margin-left: 33%;
-    margin-top: 3%;
+    margin-top: 5px;
 }
 
-.lista{
-    height: 400px;
-    width: 400px;
-    background-color: green;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    
+#texto{
+    display: flex;
+    justify-content: center;
 }
 
-/*.formulario{
-    height: 50%;
-    width: 30%; 
-   
-   
-}
-
-.formulario > p{
-    font-size: 10px;
-    font-family: arial;
-}
-*/
 .caixa1{
     display: inline-block;
-    border: 1px solid black;
+    color: white;
+    font-family: calibri;
     width: 400px;
-    height: 400px;
+    height: 280px;
     margin-left: 10%;
-    background-color: green;
-    padding: 0;
-    
+    background-color: #3eba15;
+    /*margin-top: 5%;*/
+}
+
+.margem{
+    margin: 15px;
+    padding-left: 15px;
+    text-align: left;
 }
 .caixa2{
     display: inline-block;
-    border: 1px solid black;
     width: 600px;
-    height: 400px;
+    height: 350px;
     margin-left: 2%;
-    margin-top: 5%;
-    
+    margin-top: auto;  
 }
+
+.botao{
+    border: none;
+    border-radius: 20px;
+    background-color: #3eba15;
+    margin-left: 5px;
+    width: 120px;
+    height: 40px;
+    color: white;
+}
+
+.botao:hover{
+    text-decoration: underline; 
+}
+
 .NYmap{
     align-items:center; 
     width: 1100px; 
     height: 400px; 
     margin-left: 8%;
+    margin-top: 20px;
+}
+.rodape{
+    display: inline-block;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 10pxs;
+    background-color: black;
+    color: white;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.botao2{
+    background-color: #3eba15;
+    color: white;
+    height: 33pxs;
+}
+
+.input1{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: none;
+    height: 36px;
+
+}
+
+.borda1{
+    border: 1px solid white;
+    width: 250px;
+    height: 40px;
+    
 }
